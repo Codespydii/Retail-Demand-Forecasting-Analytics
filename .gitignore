@@ -1,0 +1,17 @@
+venv/
+
+__pycache__/
+
+.ipynb_checkpoints/
+
+*.pyc
+
+*.pkl
+
+*.joblib
+
+*.pbix
+
+.DS_Store
+
+.env
