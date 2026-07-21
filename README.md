@@ -221,22 +221,6 @@ The deployed application provides:
 
 ---
 
-# 📸 Dashboard Preview
-
-Add screenshots of your application here.
-
-Example:
-
-```
-screenshots/
-
-dashboard_home.png
-
-prediction_result.png
-
-generated_features.png
-```
-
 ---
 
 # 📦 Installation
