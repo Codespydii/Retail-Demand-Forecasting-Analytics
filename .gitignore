@@ -15,3 +15,33 @@ __pycache__/
 .DS_Store
 
 .env
+
+data/processed/
+*.csv
+
+data/processed/
+anaconda_projects/
+.vscode/
+__pycache__/
+.ipynb_checkpoints/
+
+
+# Python
+__pycache__/
+*.pyc
+
+# Processed data
+data/processed/
+
+# VS Code
+.vscode/
+
+# Anaconda
+anaconda_projects/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# CatBoost logs
+notebooks/catboost_info/
+
