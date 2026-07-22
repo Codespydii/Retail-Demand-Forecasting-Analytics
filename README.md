@@ -173,6 +173,14 @@ After hyperparameter tuning using **RandomizedSearchCV**, the optimized XGBoost 
 The model explains approximately **98.8% of the variance** in daily retail sales.
 
 ---
+##Deployment screenshots
+![Retail Demand Forecasting Deployment screenshots](images/ml project 1.PNG)
+![Retail Demand Forecasting Deployment screenshots](images/ml project 2.PNG)
+![Retail Demand Forecasting Deployment screenshots](images/ml project 3.PNG)
+![Retail Demand Forecasting Deployment screenshots](images/ml project 4.PNG)
+![Retail Demand Forecasting Deployment screenshots](images/ml project 5.PNG)
+![Retail Demand Forecasting Deployment screenshots](images/ml project 6.PNG)
+![Retail Demand Forecasting Deployment screenshots](images/ml project 7.PNG)
 
 # 💻 Streamlit Dashboard Features
 
