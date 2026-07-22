@@ -1,14 +1,24 @@
+import os
+import gdown
 import pandas as pd
 import streamlit as st
 
+FILE_ID = "1BPMNlBvvdLV0OuO5uzzCS7Y4CTJ4Oqrc"
 
 @st.cache_data
 def load_featured_data():
-    """
-    Load the engineered dataset only once.
-    """
-    df = pd.read_csv("data/processed/featured_data.csv")
+    output = "featured_data.csv"
+
+    if not os.path.exists(output):
+        gdown.download(
+            id=FILE_ID,
+            output=output,
+            quiet=False
+        )
+
+    df = pd.read_csv(output)
     df["Date"] = pd.to_datetime(df["Date"])
+
     return df
 
 
